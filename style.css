@@ -1,0 +1,12 @@
+html {
+  background: #f2f1f4ac; /* Sätter en ljus, genomskinlig bakgrundsfärg för hela sidan */
+  color: #19171c; /* Sätter textfärgen för hela sidan till en mörk nyans */
+}
+
+.description {
+  display: none; /* Gömmer element med klassen .description */
+}
+
+.active {
+  display: block; /* Gör att element med klassen .active visas som block */
+}

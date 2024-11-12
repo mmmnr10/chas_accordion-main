@@ -1,0 +1,27 @@
+
+html {
+  background-color: rgba(26, 17, 17, 0.548); 
+  font-size: 1.5rem; 
+}
+
+/* Stil för varje sektion (t.ex. varje fråga i FAQ-listan) */
+.section {
+  padding: 10px; 
+  display: flex; 
+  justify-content: space-between; 
+  cursor: pointer;  
+}
+
+/* Stil för beskrivningen som är gömd från början */
+.description {
+  display: block; 
+  background-color: rgba(232, 157, 104, 0.909); 
+  max-height: 0; 
+  overflow: hidden; 
+  transition: all 0.5s ease-in-out; 
+}
+
+/* Stil för beskrivningen när den är aktiv (visas) */
+.description.active {
+  max-height: 500px; 
+}
